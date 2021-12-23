@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Navigation from '../Navigation/navigation'
 import { getFirestore, collection, query, where, getDocs } from "firebase/firestore";
 import '../Request/request.css'
-
-const Request = () => {
+ 
+async function Request (){
     const [data, setdata] = useState([])
     const requestArray = [];
     
