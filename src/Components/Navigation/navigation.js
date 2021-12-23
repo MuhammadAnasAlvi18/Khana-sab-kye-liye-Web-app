@@ -51,7 +51,7 @@ function Navbar() {
       <CssBaseline />
       <Toolbar className={classes.Toolbar}>
         <Typography variant="h4" className={classes.logo}>
-          <img src={logo} style={{width:150 , height:150}}></img>
+          <img alt='logo' src={logo} style={{width:150 , height:150}}></img>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
